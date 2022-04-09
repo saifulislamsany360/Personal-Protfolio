@@ -48,6 +48,36 @@ section{
 }
 .right_wel_item img {
     width: 70%;
-    padding-left: 20%;
-    padding-top: 10%;   
+    padding:10% 0% 0% 20% ;
+}
+/* Dream Item */
+
+#dream_item{
+    background-image: url(/images/dream-bg.png);
+    background-position:right;
+}
+.dre_sub_item{ 
+    width: 50%;
+}
+.left_dream_item img{
+    width: 70%;
+    padding:10% 0% 0% 10%
+}
+.right_dream_item h2 {
+    font-size: 60px;
+}
+.drem_text {
+    color: dimgray;
+    line-height: 30px;
+}
+.dre_btn {
+    color: whitesmoke;
+    font-weight: bold;
+    background-image: linear-gradient(tomato,rgb(243, 128, 83));
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.dre_btn:hover {
+    background: orangered;
 }
