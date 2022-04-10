@@ -14,7 +14,7 @@ body{
     display: flex;
 }
 section{
-    margin-bottom: 50px; 
+    margin-bottom: 100px; 
 }
 
 /* Welcome Item */
@@ -85,12 +85,17 @@ section{
 #experiences{
     background-image: url(/images/exp-bg.png);
     background-position: left;
+    padding-bottom: 100px;
 }
 .exper_header{
     font-size:40px ;
 }
 .exper_sub_item{
     width: 50%;
+    padding: 0 10px 50px 20px;
+    box-shadow: rgb(0 0 0 / 65%) 0px 6px 20px;
+    border-radius: 5px;
+    border-left: 08px solid ;
 }
 .left_exper_item h1 {
     font-size: 30px;
@@ -102,6 +107,19 @@ section{
     color: dimgray;
     line-height: 30px;
 }
+.left_exper_item{
+    margin-right: 50px;
+    border-image: linear-gradient(#15b894, #8668f1) 30;
+}
+.right_exper_item{
+    border-image: linear-gradient(#f6963c, #eb1111) 30;
+}
 .right_exper_item h1 {
     font-size: 30px;
 }
+/* footer item */
+#footer p{
+    color: dimgray;
+    text-align: center;
+}
+
