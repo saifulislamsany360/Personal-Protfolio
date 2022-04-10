@@ -81,3 +81,27 @@ section{
 .dre_btn:hover {
     background: orangered;
 }
+/* Experiences item */
+#experiences{
+    background-image: url(/images/exp-bg.png);
+    background-position: left;
+}
+.exper_header{
+    font-size:40px ;
+}
+.exper_sub_item{
+    width: 50%;
+}
+.left_exper_item h1 {
+    font-size: 30px;
+}
+.exper_h3{
+    color: orange;
+}
+.exper_text{
+    color: dimgray;
+    line-height: 30px;
+}
+.right_exper_item h1 {
+    font-size: 30px;
+}
